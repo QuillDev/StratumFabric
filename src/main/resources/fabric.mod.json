@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "stratumfabric",
+  "version": "${version}",
+  "name": "StratumFabric",
+  "description": "Stratum plugin translated to fabric",
+  "authors": [
+    "Robert Brunson"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://quill.moe"
+  },
+  "license": "MIT",
+  "icon": "assets/stratumfabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "moe.quill.stratumfabric.StratumFabric"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "StratumFabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "moe.quill.stratumfabric.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
